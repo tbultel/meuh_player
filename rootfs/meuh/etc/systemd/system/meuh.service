@@ -1,0 +1,13 @@
+[Unit]
+Description=Meuh service
+After=radio.service
+Requires=radio.service
+
+[Service]
+User=root
+Type=oneshot
+ExecStart=/usr/bin/mpc load meuh
+ExecStart=/usr/bin/mpc play 1
+
+[Install]
+WantedBy=multi-user.target
