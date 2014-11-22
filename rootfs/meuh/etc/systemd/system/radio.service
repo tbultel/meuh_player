@@ -1,0 +1,13 @@
+[Unit]
+Description=Radio service
+After=syslog.target network.target
+
+[Service]
+User=root
+Type=
+ExecStartPre=/sbin/modprobe snd-bcm2835
+ExecStartPre=/usr/bin/amixer cset numid=3 1
+ExecStart=/usr/bin/mpd --no-daemon
+
+[Install]
+WantedBy=multi-user.target
