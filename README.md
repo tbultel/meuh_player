@@ -21,9 +21,11 @@ the target radio example is the famous http://www.radiomeuh.com
 
 ![alt tag](http://www.radiomeuh.com/wp-content/themes/meuh/images/logo.svg)
 
-## Contributors
 
 ## What's next
 
 Next steps will be to add lcd touch screen support, to 
+change the radio station and control the output volume.
 
+Beside that, another project is to use RPI/Buildroot as a Bluetooth backend,
+for playing sound from a bluetooth source onto an amplifier. Coming soon !
