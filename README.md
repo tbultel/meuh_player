@@ -31,3 +31,8 @@ change the radio station and control the output volume.
 
 Beside that, another project is to use RPI/Buildroot as a Bluetooth backend,
 for playing sound from a bluetooth source onto an amplifier. Coming soon !
+
+## Contributors
+
+For any comments or question, ask to tbultel@free.fr
+
