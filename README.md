@@ -3,18 +3,20 @@ rpi-buildroot Meuh! Player
 
 ## Synopsis
 
-This project is based on rpi-buildroot (https://github.com/gamaral/rpi-buildroot)
+This project is a Web radio player, based on rpi-buildroot (https://github.com/gamaral/rpi-buildroot)
+It uses MPD (Music Player Daemon) and MPC. 
+The rasberry starts to play the radio at bootup.
 
 ## How to build
 
-Simply follow instructions in https://github.com/gamaral/rpi-buildroot,
-but use the *raspberrypi_meuh_defconfig* instead of the default one.
+Simply follow the build and SD card setup instructions in https://github.com/gamaral/rpi-buildroot,
+but use the **raspberrypi_meuh_defconfig** instead of the default one.
 
 ## Motivation
 
 The aim is to demonstrate the power of buildroot to quickly build
-a Web radio player, that boots fast (the radio starts to play in less than 20 seconds)
-It works headless
+a light Web radio player, that boots fast (the radio starts to play in less than 20 seconds)
+It works headless.
 
 This is a proof of concept, which does not mean that it cannot be fun,
 the target radio example is the famous http://www.radiomeuh.com
